@@ -24,7 +24,7 @@ const questions = [{ type:'input',
                    },
                    {
                     type:'input',
-                    name:'License',
+                    name:'license',
                     message:'Add License Details:'
                    },
                    {
@@ -34,12 +34,12 @@ const questions = [{ type:'input',
                    },
                    {
                     type:'input',
-                    name:'Test',
+                    name:'test',
                     message:'Add Test Details:'
                    },
                    {
                     type:'input',
-                    name:'gitHubUser',
+                    name:'gitHubUserName',
                     message:'Enter gitHub UserName:'
                    },
                    {
@@ -47,8 +47,6 @@ const questions = [{ type:'input',
                     name:'email',
                     message:'Add Email Address:'
                    },
-
-
 
 
 ];
