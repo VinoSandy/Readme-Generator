@@ -4,7 +4,11 @@ const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
-const questions = [
+const questions = [{ type:'input',
+                     name:'projTitle',
+                     message:'Enter projectTitle'
+
+                   }
 
 ];
 
@@ -14,7 +18,9 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-
+inquirer.prompt(questions).then((data)=>{
+    console.log(data.projTitle);
+})
 }
 
 // function call to initialize program
