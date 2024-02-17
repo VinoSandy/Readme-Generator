@@ -5,23 +5,24 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
 const questions = [{ type:'input',
-                     name:'projTitle',
+                     name:'title',
                      message:'Enter projectTitle'
-
                    }
 
 ];
 
 // function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFile(fileName,generateMarkdown(data),(err) =>
+     err ? console.error(err) : console.log('Success!'))
 }
+
 
 // function to initialize program
 function init() {
-inquirer.prompt(questions).then((data)=>{
-    console.log(data.projTitle);
-})
+inquirer.prompt(questions).then((answers)=> writeToFile('README.md',answers))
 }
 
+//.then((answers) => writeFileAsync('index.html', generateHTML(answers)))
 // function call to initialize program
 init();
