@@ -1,37 +1,35 @@
-# Professional Readme Generator
+# Readme Generator
+   ## Description: 
+              Generates readme
 
-## Description: 
-              Dynamically Generates ReadME from command line
+   ## Table of contents
+- [Description](#description)
 
-## Table of contents
-               - [Title](#Title)
+   - [Installation](#installation)
 
-               - [Description](#Description)
+   - [Usage](#usage)
 
-               - [Installation](#Installation)
+   - [License](#license)
 
-               - [Usage](#Usage)
+   - [Contributors](#contributors)
 
-               - [License](#License)
+   - [Tests](#tests)
 
-               - [Contributors](#Contributors)
-
-               - [Test](#Test)
-
-               - [Questions](#Question)
+   - [Questions](#questions)
 
    ## Installation:
-                install node and npm   
+                npm   
    ## Usage:
-                use terminal to generate this ReadMe.
+                use
    ## License:
-                created using MIT  
+                MIT  
    ## Contributors:
-                Vino
+                vino
    ## Tests:
                none
    ## Questions:
-               Any Questions about this project contact me in [GitHub Link](https://github.com/VinoSandy)
-               or Email me at santhoshkumarVinothini@gmail.com         
+        Any Questions about this project contact me at
+        [GitHub](https://github.com/VinoSandy)
+         Email : vino@gmail.com         
   
   

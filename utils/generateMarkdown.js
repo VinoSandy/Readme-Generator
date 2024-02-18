@@ -1,40 +1,38 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
     return `# ${data.title}
-
-            ## Description: 
+   ## Description: 
               ${data.description}
 
-            ## Table of contents
-               - [Title](#Title)
+   ## Table of contents
+- [Description](#description)
 
-               - [Description](#Description)
+   - [Installation](#installation)
 
-               - [Installation](#Installation)
+   - [Usage](#usage)
 
-               - [Usage](#Usage)
+   - [License](#license)
 
-               - [License](#License)
+   - [Contributors](#contributors)
 
-               - [Contributors](#Contributors)
+   - [Tests](#tests)
 
-               - [Test](#Test)
+   - [Questions](#questions)
 
-               - [Questions](#Question)
-
-             ## Installation:
+   ## Installation:
                 ${data.installation}   
-             ## Usage:
+   ## Usage:
                 ${data.usage}
-             ## License:
+   ## License:
                 ${data.license}  
-            ## Contributors:
+   ## Contributors:
                 ${data.contributors}
-            ## Tests:
+   ## Tests:
                ${data.test}
-            ## Questions:
-               Any Questions about this project contact me in [GitHub Link](https://github.com/${data.gitHubUserName})
-               or Email me at ${data.email}         
+   ## Questions:
+        Any Questions about this project contact me at
+        [GitHub](https://github.com/${data.gitHubUserName})
+         Email : ${data.email}         
   
   `;
   }
