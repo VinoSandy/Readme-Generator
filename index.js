@@ -60,7 +60,7 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-inquirer.prompt(questions).then((answers)=> writeToFile('README.md',answers))
+inquirer.prompt(questions).then((answers)=> writeToFile('./assets/sampleReadMe.md',answers))
 }
 
 // function call to initialize program
