@@ -1,6 +1,6 @@
 # Professional ReadMe Generator
    ## Description: 
-      Professional ReadMe Generator , generates ReadMe file dynamically by getting user inputs from command line prompt.        
+      Professional ReadMe Generator , generates sampleReadMe file dynamically by getting user inputs from command line prompt.        
 
    ## Table of contents
    - [Description](#description)
@@ -21,7 +21,7 @@
 
   ## Demo:
 
-   ![ReadMe Generator Demo](./assets/Demo/demo.gif) 
+   ![ReadMe Generator Demo](./assets/Demo/SampleReadMeDemo.gif) 
     
     The above demo describes When a user is prompted for information about the application repository then a high-quality, professional README.md is generated with:
    * The title of my project 

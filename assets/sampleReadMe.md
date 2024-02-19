@@ -1,6 +1,6 @@
-# Sample Project
+# SampleProject
    ## Description: 
-              Sample project to create sample readme file.
+              Sample project Demo ReadMe
 
    ## Table of contents
 - [Description](#description)
@@ -18,9 +18,9 @@
    - [Questions](#questions)
 
    ## Installation:
-                use inquirer node package.   
+                inquirer   
    ## Usage:
-                demo.
+                use cmd to run index
    ## License:
                 MIT  
    ## Contributors:
